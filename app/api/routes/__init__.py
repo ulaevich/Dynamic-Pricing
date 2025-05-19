@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from ..routes.default import router as default_router
-from ..routes.pridict import router as predict_router
+from .predict import router as predict_router
 
 
 main_router = APIRouter()
